@@ -1,0 +1,14 @@
+DICOM图像拷贝；
+使用MRCP_file_tidy.ipynb将拷贝图像转换成NII，同时输出DICOM文件信息；版块二删除不必要的文件。
+手动查找包含MRCP的NII文件并单独存在某一路径A中；
+使用rename.ipynb读取路径A，重命名并保存入save_folder，同时输出excel文件表明文件对应关系；
+文件名对应关系统一至file_renaming_info.xlsx中
+
+data_process.ipynb实现ROI值的统一
+
+GT_NRRD文件夹包含5个子文件夹，为原始人工勾画标签，GT_NII文件夹把人工勾画的标签值统一为1；
+batch4为验证集，batch5为测试集。
+
+
+statistics_MRCP用于计算分组扫描参数值
+
